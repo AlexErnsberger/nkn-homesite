@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*清除浮动代码*/
+.clearfix{zoom:1}
+.clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+
