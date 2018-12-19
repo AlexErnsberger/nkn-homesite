@@ -7,3 +7,13 @@
   @include nkn-icon($width: 16px,$height: 16px);
   background-image: url(../../assets/img/header/earth.png);
 }
+
+.icon-developer1{
+  @include nkn-icon(20px, 18px);
+  background-image: url(../../assets/img/footer/icon/developer1.png);
+}
+
+.icon-developer2{
+  @include nkn-icon(20px, 18px);
+  background-image: url(../../assets/img/footer/icon/developer2.png);
+}

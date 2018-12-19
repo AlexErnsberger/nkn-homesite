@@ -2,15 +2,17 @@
   <div id="app">
     <nkn-header></nkn-header>
     <router-view/>
+    <nkn-footer></nkn-footer>
   </div>
 </template>
 
 <script>
 import nknHeader from '@/components/header/nknHeader'
+import nknFooter from '@/components/footer/nknFooter'
 export default {
   name: 'App',
   components: {
-    nknHeader
+    nknHeader, nknFooter
   }
 }
 </script>
