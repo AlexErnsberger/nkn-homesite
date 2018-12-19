@@ -1,14 +1,14 @@
 <template>
-  <div class="header-lang">
-    <div class="header-lang-body">
-      <i class="icon iconfont icon-lang"></i>
-      <span>Language</span>
-    </div>
-    <div class="header-lang-dropdown">
-      <div class="drop-item">中文</div>
-      <div class="drop-item">English</div>
-    </div>
+<div class="header-lang">
+  <div class="header-lang-body">
+    <i class="icon iconfont icon-lang"></i>
+    <span>Language</span>
   </div>
+  <div class="header-lang-dropdown">
+    <div class="drop-item">中文</div>
+    <div class="drop-item">English</div>
+  </div>
+</div>
 </template>
 
 <script>
@@ -18,25 +18,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.header-lang{
+.header-lang {
   display: inline-block;
-  &-body{
+
+  &-body {
     padding: 0 40px;
     cursor: pointer;
-    font-size: 14px; color: #fff;
+    font-size: 14px;
+    color: #fff;
 
-    &>i{
+    &>i {
       margin-right: 6px;
       vertical-align: -1px;
     }
 
-    &:hover{
+    &:hover {
       color: #1791F2;
 
     }
   }
 
-  &-dropdown{
+  &-dropdown {
     position: absolute;
     display: none;
     min-width: 100px;
@@ -44,7 +46,7 @@ export default {
     font-size: 14px;
   }
 
-  &:hover &-dropdown{
+  &:hover &-dropdown {
     display: block;
   }
 

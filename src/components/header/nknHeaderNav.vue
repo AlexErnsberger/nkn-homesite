@@ -1,11 +1,11 @@
 <template>
-  <nav class="header-tab">
-    <div class="header-tab-block">Developer</div>
-    <div class="header-tab-block">Miner</div>
-    <div class="header-tab-block">Partner</div>
-    <div class="header-tab-block">News</div>
-    <div class="header-tab-block">About</div>
-  </nav>
+<nav class="header-tab">
+  <div class="header-tab-block">Developer</div>
+  <div class="header-tab-block">Miner</div>
+  <div class="header-tab-block">Partner</div>
+  <div class="header-tab-block">News</div>
+  <div class="header-tab-block">About</div>
+</nav>
 </template>
 
 <script>
@@ -15,16 +15,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.header-tab{
+.header-tab {
   display: inline-block;
 
-  &-block{
+  &-block {
     display: inherit;
     padding: 0 40px;
     cursor: pointer;
-    font-size: 14px; color: #fff;
+    font-size: 14px;
+    color: #fff;
 
-    &:hover{
+    &:hover {
       color: #1791F2;
     }
   }
