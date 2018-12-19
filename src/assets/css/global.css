@@ -25,3 +25,9 @@ a{
 .clearfix{zoom:1}
 .clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0}
 
+/*二级页面标题*/
+.l2-title{
+  font-size: 48px;
+  color: #363F57;
+  text-align: center;
+}

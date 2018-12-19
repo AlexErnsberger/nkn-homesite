@@ -1,14 +1,17 @@
 <template>
   <div class="about">
     <about-header></about-header>
+    <about-team></about-team>
   </div>
 </template>
 
 <script>
-import AboutHeader from '@/components/about/Header.vue'
+import AboutHeader from '@/components/about/Header'
+import AboutTeam from '@/components/about/CoreTeam'
 export default {
   components: {
-    AboutHeader
+    AboutHeader,
+    AboutTeam
   }
 }
 </script>
