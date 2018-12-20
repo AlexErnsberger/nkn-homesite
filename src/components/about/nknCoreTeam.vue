@@ -1,8 +1,8 @@
 <template>
-  <div class="about-team">
+  <div class="nkn-team">
     <div class="container">
       <div class="l2-title">Core Team</div>
-      <div class="team-body clearfix">
+      <div class="nkn-team-body clearfix">
         <team-module>
           <i slot="title-img" class="pic-team-yanbo" ></i>
           <span slot="title-text">Yanbo Li</span>
@@ -65,9 +65,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.about-team{
+.nkn-team{
   padding: 30px 0;
-  .team-body{
+  &-body{
     padding: 100px 0;
     &>div+div{
       margin-left: 26px;

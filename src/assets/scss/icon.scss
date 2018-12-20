@@ -36,3 +36,13 @@ $l2-about-header-bg:'../../assets/img/about/worldmap.png';
   @include nkn-icon(110px, 110px);
   background-image: url(~@/assets/img/about/Allen.png);
 }
+
+.pic-adviser-diffie{
+  @include nkn-icon(110px, 110px);
+  background-image: url(~@/assets/img/about/diffie.png);
+}
+
+.pic-adviser-wolfram{
+  @include nkn-icon(110px, 110px);
+  background-image: url(~@/assets/img/about/Wolfram.png);
+}

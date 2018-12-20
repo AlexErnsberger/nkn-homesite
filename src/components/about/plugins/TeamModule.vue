@@ -31,11 +31,11 @@ export default {
 <style lang="scss" scoped>
 .team-module{
   width: 280px;height: 500px;
-  box-shadow: 0 0 3px 0 #d6dbee;
   padding: 20px 46px 20px 20px;
   position: relative;
   float: left;
   box-sizing: border-box;
+  box-shadow: 0 0 3px 0 #d6dbee;
 
   &:hover{
     box-shadow: 0 0 8px 2px #d6dbee;
@@ -60,6 +60,7 @@ export default {
   }
   .module-body{
     padding: 26px 0;
+    line-height: 20px;
     font-size: 14px;
     word-break: keep-all;
 
