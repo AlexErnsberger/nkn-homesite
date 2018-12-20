@@ -7,7 +7,7 @@
 
 <script>
 import AboutHeader from '@/components/about/Header'
-import AboutTeam from '@/components/about/CoreTeam'
+import AboutTeam from '@/components/about/nknCoreTeam'
 export default {
   components: {
     AboutHeader,

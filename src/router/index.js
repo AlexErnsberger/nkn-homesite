@@ -6,6 +6,7 @@ import DeveloperPortal from '@/views/DeveloperPortal'
 import HomePortal from '@/views/HomePortal'
 import MinerPortal from '@/views/MinerPortal'
 import PartnerPortal from '@/views/PartnerPortal'
+import nknNamespace from '@/assets/js/nknNamespace'
 
 Vue.use(Router)
 
@@ -13,32 +14,32 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: nknNamespace.HOME,
       component: HomePortal
     },
     {
       path: '/about',
-      name: 'about',
+      name: nknNamespace.ABOUT,
       component: AboutPortal
     },
     {
       path: '/community',
-      name: 'community',
+      name: nknNamespace.COMMUNITY,
       component: CommunityPortal
     },
     {
       path: '/developer',
-      name: 'developer',
+      name: nknNamespace.Developer,
       component: DeveloperPortal
     },
     {
       path: '/miner',
-      name: 'miner',
+      name: nknNamespace.MINER,
       component: MinerPortal
     },
     {
       path: '/partner',
-      name: 'partner',
+      name: nknNamespace.PARTNER,
       component: PartnerPortal
     }
   ]

@@ -4,10 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import url from '@/assets/json/url'
+import namespace from '@/assets/js/nknNamespace'
 import '@/assets/css/global.css'
 
 Vue.config.productionTip = false
 Vue.prototype.$url = url
+Vue.prototype.$namespace = namespace
 
 /* eslint-disable no-new */
 new Vue({
