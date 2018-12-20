@@ -13,3 +13,12 @@
   background-repeat: no-repeat;
   background-size: $size;
 }
+
+@mixin roadmap-dot($width, $height, $bgcolor, $margin, $display: inline-block){
+  content: '';
+  display: $display;
+  width: $width;height: $height;
+  border-radius: 50%;
+  background-color: $bgcolor;
+  margin: $margin;
+}

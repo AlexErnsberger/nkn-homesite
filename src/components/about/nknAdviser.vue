@@ -5,7 +5,7 @@
       <div class="nkn-adviser-body clearfix">
         <adviser-module>
           <i slot="portrait" class="pic-adviser-diffie"></i>
-          <a slot="fullname" href="https://en.wikipedia.org/wiki/Whitfield_Diffie">Whitfield Diffie</a>
+          <a slot="fullname" :href="$url.ADVISER_LINK.diffie">Whitfield Diffie</a>
           <div slot="honor">Inventor of public key cryptography (Diffie-Hellman)</div>
           <div slot="honor">2015 Turing Award winner</div>
           <div slot="honor-detail">Fellow of the Royal Society;</div>
@@ -20,7 +20,7 @@
         </adviser-module>
         <adviser-module>
           <i slot="portrait" class="pic-adviser-wolfram"></i>
-          <a slot="fullname" href="https://en.wikipedia.org/wiki/Stephen_Wolfram">Stephen Wolfram</a>
+          <a slot="fullname" :href="$url.ADVISER_LINK.wolfram">Stephen Wolfram</a>
           <div slot="honor">Founder and CEO of Wolfram Research</div>
           <div slot="honor-detail">PhD in theoretical Physics, Caltech, 1979;</div>
           <div slot="honor-detail">Recipient, MacArthur Genius Award, 1981;</div>

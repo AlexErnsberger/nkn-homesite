@@ -1,5 +1,10 @@
 @import './iconfont.css'; 
 
+html{
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 body{
   margin: 0;
 }
@@ -30,5 +35,11 @@ a{
 .l2-title{
   font-size: 48px;
   color: #363F57;
+  text-align: center;
+}
+
+.l2-title-light{
+  font-size: 48px;
+  color: #fff;
   text-align: center;
 }

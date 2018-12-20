@@ -11,6 +11,11 @@ const TEAM_LINK = {
   }
 }
 
+const ADVISER_LINK = {
+  diffie: 'https://en.wikipedia.org/wiki/Whitfield_Diffie',
+  wolfram: 'https://en.wikipedia.org/wiki/Stephen_Wolfram'
+}
+
 const FOOTER_LINK = {
   community: {
     telegram: 'https://t.me/nknorg',
@@ -32,5 +37,5 @@ const FOOTER_LINK = {
 }
 
 export default{
-  TEAM_LINK, FOOTER_LINK
+  TEAM_LINK, FOOTER_LINK, ADVISER_LINK
 }

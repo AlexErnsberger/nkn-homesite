@@ -60,7 +60,6 @@ export default {
   }
   .module-body{
     padding: 26px 0;
-    line-height: 20px;
     font-size: 14px;
     word-break: keep-all;
 

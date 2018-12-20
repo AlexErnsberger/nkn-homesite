@@ -56,7 +56,6 @@ export default {
   .module-body{
     padding:20px;
     font-size: 14px;
-    line-height: 20px;
 
     &-title{
       margin: 10px 0;

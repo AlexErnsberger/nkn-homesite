@@ -28,7 +28,6 @@ export default {
 .nkn-footer {
   &-body {
     @include nkn-bg-img($url: $footer-body-bg);
-    height: 434px;
   }
 
   &-bottom {

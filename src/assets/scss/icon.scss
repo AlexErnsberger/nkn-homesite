@@ -1,6 +1,7 @@
 // 相对于组件所在路径
-$footer-body-bg:'../../assets/img/footer/footerBG.png';
-$l2-about-header-bg:'../../assets/img/about/worldmap.png';
+$footer-body-bg:'~@/assets/img/footer/footerBG.png';
+$l2-about-header-bg:'~@/assets/img/about/worldmap.png';
+$l2-about-roadmap-bg: '~@/assets/img/about/roadmap/Line.png';
 
 .icon-nkn-logo{
   @include nkn-icon($width: 105px,$height: 40px);
@@ -45,4 +46,40 @@ $l2-about-header-bg:'../../assets/img/about/worldmap.png';
 .pic-adviser-wolfram{
   @include nkn-icon(110px, 110px);
   background-image: url(~@/assets/img/about/Wolfram.png);
+}
+
+// 鲸鱼
+.pic-roadmap-beluga{
+  @include nkn-icon(97px, 70px);
+  background-image: url(~@/assets/img/about/roadmap/Beluga.png);
+}
+
+// 福狸
+.pic-roadmap-firefox{
+  @include nkn-icon(72px, 79px);
+  background-image: url(~@/assets/img/about/roadmap/firefox.png);
+}
+
+// 考拉
+.pic-roadmap-koala{
+  @include nkn-icon(72px, 72px);
+  background-image: url(~@/assets/img/about/roadmap/koala.png);
+}
+
+// 福猴
+.pic-roadmap-lemur{
+  @include nkn-icon(72px, 76px);
+  background-image: url(~@/assets/img/about/roadmap/lemur.png);
+}
+
+// 海岛猫鼬
+.pic-roadmap-meerkat{
+  @include nkn-icon(59px, 77px);
+  background-image: url(~@/assets/img/about/roadmap/Meerkat.png);
+}
+
+// 独角鲸
+.pic-roadmap-narwal{
+  @include nkn-icon(97px, 70px);
+  background-image: url(~@/assets/img/about/roadmap/Narwal.png);
 }

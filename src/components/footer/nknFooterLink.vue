@@ -121,7 +121,7 @@ export default {
 
 <style lang="scss" scoped>
 .footer-link {
-  padding: 90px 0;
+  padding: 80px 0;
 
   &-module {
     float: left;
@@ -137,7 +137,7 @@ export default {
     &-tab {
       font-size: 18px;
       color: currentColor;
-      padding: 15px 0;
+      padding: 5px 0;
       cursor: pointer;
 
       &>a {
