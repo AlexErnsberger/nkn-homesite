@@ -21,3 +21,18 @@ $l2-about-header-bg:'../../assets/img/about/worldmap.png';
   @include nkn-icon(110px, 110px);
   background-image: url(~@/assets/img/about/Yanbo.png);
 }
+
+.pic-team-bruce{
+  @include nkn-icon(110px, 110px);
+  background-image: url(~@/assets/img/about/Bruce.png);
+}
+
+.pic-team-yilun{
+  @include nkn-icon(110px, 110px);
+  background-image: url(~@/assets/img/about/Yilun.png);
+}
+
+.pic-team-allen{
+  @include nkn-icon(110px, 110px);
+  background-image: url(~@/assets/img/about/Allen.png);
+}

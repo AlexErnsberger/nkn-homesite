@@ -1,7 +1,8 @@
 <template>
   <div class="team-module">
-    <div class="module-title">
-      <slot name="title"></slot>
+    <div class="module-title clearfix">
+      <div class="module-title-img"><slot name="title-img"></slot></div>
+      <div class="module-title-text"><slot name="title-text" ></slot></div>
     </div>
     <div class="module-body">
       <div class="nkn-position">
@@ -15,7 +16,8 @@
       </div>
     </div>
     <div class="module-bottom">
-      <slot name="contact"></slot>
+      <slot name="github"></slot>
+      <slot name="linkedin"></slot>
     </div>
   </div>
 </template>
@@ -32,14 +34,34 @@ export default {
   box-shadow: 0 0 3px 0 #d6dbee;
   padding: 20px 46px 20px 20px;
   position: relative;
+  float: left;
+  box-sizing: border-box;
+
+  &:hover{
+    box-shadow: 0 0 8px 2px #d6dbee;
+  }
   .module-title{
     padding: 26px 0;
+    margin-right: -16px;
     border-bottom: 1px solid #bbc1d3;
-    font-size: 24px;
+    font-size: 18px;
+    white-space: nowrap;
+
+    &-img{
+      float: left;
+    }
+
+    &-text{
+      float: left;
+      margin-left: 16px;
+      font-weight: 600;
+      margin-top: 45px;
+    }
   }
   .module-body{
     padding: 26px 0;
-    font-size: 18px;
+    font-size: 14px;
+    word-break: keep-all;
 
     .nkn-position, .nkn-contribute{
       color:#1791f2;
@@ -47,6 +69,7 @@ export default {
     }
     .person-detail{
       padding: 10px 0;
+      opacity: .8;
       word-break: keep-all;
     }
 
@@ -54,9 +77,15 @@ export default {
   .module-bottom{
     position: absolute;
     bottom: 20px;left: 20px;
-    &>i{
-      font-size: 24px;
-      margin-right: 30px;
+    & a{
+      color: #bbced3;
+      & i{
+        font-size: 24px;
+        margin-right: 30px;
+        &:hover{
+          color: #1791f2;
+        }
+      }
     }
   }
 }
