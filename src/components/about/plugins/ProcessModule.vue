@@ -1,11 +1,14 @@
 <template>
   <div class="process-module">
-    <div class="process-time">June 16th, 2018</div>
+    <div class="process-time">
+      <slot name="process-time"></slot>
+    </div>
+    <div :class="dotClass"></div>
     <div class="process-flag">
-      <i class="pic-roadmap-firefox"></i>
+      <slot name="process-pic"></slot>
       <div class="flag-content">
-        <div class="flag-content-title">V0.1 "Firefox" release</div>
-        <div class="flag-content-desc">First live testnet over global nodes with all core subsystems working together</div>
+        <div class="flag-content-title"><slot name="process-content-title"></slot></div>
+        <div class="flag-content-desc"><slot name="process-content-desc"></slot></div>
       </div>
     </div>
   </div>
@@ -13,7 +16,14 @@
 
 <script>
 export default {
-
+  props: {
+    schedule: String
+  },
+  computed: {
+    dotClass : function () {
+      return [`${this.schedule}-dot`]
+    }
+  }
 }
 </script>
 
@@ -21,22 +31,20 @@ export default {
 .process-module{
   position: absolute;
   width: 688px;
-  color: #1791f2;
   .process-time{
     float: left;
     font-size: 18px;
     color: currentColor;
-
-    &::after{
-      content: '';
-      display: inline-block;
-      width: 14px;height: 14px;
-      border-radius: 50%;
-      // background: radial-gradient(closest-side circle, #1791f2 60%, #aed4f3 40%, #aed4f3);
-      background: #1791f2;
-      box-shadow: 0 0 6px 2px #1791f2;
-      margin-left: 45px;
-    }
+  }
+  .small-dot{
+    @include dot-style($width:14px, $height:14px,$bgcolor:currentColor);
+    position: absolute;
+    right: 488px; top: 7px;
+  }
+  .big-dot{
+    @include dot-style($width:14px, $height:14px,$bgcolor:currentColor,$boxshadow: 0 0 6px 2px currentColor);
+    position: absolute;
+    right: 488px; top: 7px;
   }
   .process-flag{
     float: right;

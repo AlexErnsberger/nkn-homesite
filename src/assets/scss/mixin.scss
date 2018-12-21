@@ -14,11 +14,10 @@
   background-size: $size;
 }
 
-@mixin roadmap-dot($width, $height, $bgcolor, $margin, $display: inline-block){
-  content: '';
+@mixin dot-style($width, $height, $bgcolor, $display: inline-block, $boxshadow: 0 0 0 0 #fff){
   display: $display;
   width: $width;height: $height;
   border-radius: 50%;
   background-color: $bgcolor;
-  margin: $margin;
+  box-shadow: $boxshadow;
 }
