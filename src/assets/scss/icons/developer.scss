@@ -1,0 +1,19 @@
+.pic-dapp-cash{
+  @include nkn-icon($width: 164px,$height: 122px);
+  background-image: url(~@/assets/img/developer/dApp/cash.png);
+}
+
+.pic-dapp-chat{
+  @include nkn-icon($width: 89px,$height: 95px);
+  background-image: url(~@/assets/img/developer/dApp/chat.png);
+}
+
+.pic-dapp-spacecats{
+  @include nkn-icon($width: 92px,$height: 93px);
+  background-image: url(~@/assets/img/developer/dApp/spacecats.png);
+}
+
+.pic-dapp-wallet{
+  @include nkn-icon($width: 96px,$height: 96px);
+  background-image: url(~@/assets/img/developer/dApp/wallet.png);
+}

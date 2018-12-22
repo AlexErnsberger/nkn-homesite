@@ -34,13 +34,13 @@ export default {
         playbackRates: [0.7, 1.0, 1.5, 2.0],
         fluid: true,
         sources: [{
-          type: "video/mp4",
+          type: 'video/mp4',
           // mp4
-          src: "http://vjs.zencdn.net/v/oceans.mp4",
+          src: 'http://vjs.zencdn.net/v/oceans.mp4'
           // webm
           // src: "https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm"
         }],
-        poster: "https://surmon-china.github.io/vue-quill-editor/static/images/surmon-1.jpg",
+        poster: 'https://surmon-china.github.io/vue-quill-editor/static/images/surmon-1.jpg'
       }
     }
   }
@@ -56,15 +56,15 @@ export default {
 
     &-intro,
     &-disc {
-      
+
       width: 593px;
     }
 
-    &-intro{
+    &-intro {
       float: left;
     }
 
-    &-disc{
+    &-disc {
       float: right;
     }
 
@@ -74,10 +74,9 @@ export default {
       line-height: 1;
     }
 
-    &-body{
+    &-body {
       margin-top: 20px;
     }
   }
 }
 </style>
-
