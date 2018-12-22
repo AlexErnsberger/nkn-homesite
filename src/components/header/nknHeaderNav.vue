@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  data () {
+  data: function () {
     return {
       tab: this.$namespace.HOME
     }
@@ -20,9 +20,13 @@ export default {
       if (e.target.innerText) {
         let tabName = e.target.innerText.toLowerCase()
         this.tab = tabName
-        this.$router.push({name: tabName})
+        this.$router.push({
+          name: tabName
+        })
       } else {
-        this.$router.push({name: this.$namespace.HOME})
+        this.$router.push({
+          name: this.$namespace.HOME
+        })
       }
     }
   }
@@ -39,8 +43,8 @@ export default {
     cursor: pointer;
     font-size: 14px;
     color: #fff;
-    
-    &::first-letter{
+
+    &::first-letter {
       text-transform: uppercase;
     }
 

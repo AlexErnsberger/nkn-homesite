@@ -1,6 +1,6 @@
 // 相对于组件所在路径
 $footer-body-bg:'~@/assets/img/footer/footerBG.png';
-$l2-about-header-bg:'~@/assets/img/about/worldmap.png';
+$l2-about-header-bg:'~@/assets/img/about/header/worldmap.png';
 $l2-about-roadmap-bg: '~@/assets/img/about/roadmap/Line.png';
 
 .icon-nkn-logo{
@@ -10,42 +10,42 @@ $l2-about-roadmap-bg: '~@/assets/img/about/roadmap/Line.png';
 
 .pic-map-sf{
   @include nkn-icon($width: 80px,$height: 144px);
-  background-image: url(~@/assets/img/about/SF.png);
+  background-image: url(~@/assets/img/about/header/SF.png);
 }
 
 .pic-map-beijing{
   @include nkn-icon($width: 80px,$height: 144px);
-  background-image: url(~@/assets/img/about/Beijing.png);
+  background-image: url(~@/assets/img/about/header/Beijing.png);
 }
 
 .pic-team-yanbo{
   @include nkn-icon(110px, 110px);
-  background-image: url(~@/assets/img/about/Yanbo.png);
+  background-image: url(~@/assets/img/about/coreTeam/Yanbo.png);
 }
 
 .pic-team-bruce{
   @include nkn-icon(110px, 110px);
-  background-image: url(~@/assets/img/about/Bruce.png);
+  background-image: url(~@/assets/img/about/coreTeam/Bruce.png);
 }
 
 .pic-team-yilun{
   @include nkn-icon(110px, 110px);
-  background-image: url(~@/assets/img/about/Yilun.png);
+  background-image: url(~@/assets/img/about/coreTeam/Yilun.png);
 }
 
 .pic-team-allen{
   @include nkn-icon(110px, 110px);
-  background-image: url(~@/assets/img/about/Allen.png);
+  background-image: url(~@/assets/img/about/coreTeam/Allen.png);
 }
 
 .pic-adviser-diffie{
   @include nkn-icon(110px, 110px);
-  background-image: url(~@/assets/img/about/diffie.png);
+  background-image: url(~@/assets/img/about/adviser/diffie.png);
 }
 
 .pic-adviser-wolfram{
   @include nkn-icon(110px, 110px);
-  background-image: url(~@/assets/img/about/Wolfram.png);
+  background-image: url(~@/assets/img/about/adviser/Wolfram.png);
 }
 
 // 鲸鱼
@@ -83,3 +83,130 @@ $l2-about-roadmap-bg: '~@/assets/img/about/roadmap/Line.png';
   @include nkn-icon(97px, 70px);
   background-image: url(~@/assets/img/about/roadmap/Narwal.png);
 }
+
+.pic-partner-arrington-XRP{
+  @include nkn-icon(122px, 47px);
+  background-image: url(~@/assets/img/about/partner/arrington-XRP.png);
+}
+
+.pic-partner-Block-VC{
+  @include nkn-icon(130px, 44px);
+  background-image: url(~@/assets/img/about/partner/Block-VC.png);
+}
+
+.pic-partner-cryptic2{
+  @include nkn-icon(137px, 30px);
+  background-image: url(~@/assets/img/about/partner/cryptic2.png);
+}
+
+.pic-partner-datapace2{
+  @include nkn-icon(136px, 36px);
+  background-image: url(~@/assets/img/about/partner/datapace2.png);
+}
+
+.pic-partner-DFG{
+  @include nkn-icon(85px, 47px);
+  background-image: url(~@/assets/img/about/partner/DFG.png);
+}
+
+.pic-partner-Dxchain2{
+  @include nkn-icon(136px, 40px);
+  background-image: url(~@/assets/img/about/partner/Dxchain2.png);
+}
+
+.pic-partner-fenbushi{
+  @include nkn-icon(130px, 47px);
+  background-image: url(~@/assets/img/about/partner/fenbushi.png);
+}
+
+.pic-partner-GeekHouse{
+  @include nkn-icon(143px, 40px);
+  background-image: url(~@/assets/img/about/partner/GeekHouse.png);
+}
+
+.pic-partner-GENESIS{
+  @include nkn-icon(139px, 26px);
+  background-image: url(~@/assets/img/about/partner/GENESIS.png);
+}
+
+.pic-partner-IF{
+  @include nkn-icon(143px, 24px);
+  background-image: url(~@/assets/img/about/partner/IF.png);
+}
+
+.pic-partner-Iotex{
+  @include nkn-icon(136px, 37px);
+  background-image: url(~@/assets/img/about/partner/Iotex.png);
+}
+
+.pic-partner-JLAB{
+  @include nkn-icon(128px, 31px);
+  background-image: url(~@/assets/img/about/partner/JLAB.png);
+}
+
+.pic-partner-NGC{
+  @include nkn-icon(117px, 48px);
+  background-image: url(~@/assets/img/about/partner/NGC.png);
+}
+
+.pic-partner-NodeCapital{
+  @include nkn-icon(142px, 26px);
+  background-image: url(~@/assets/img/about/partner/NodeCapital.png);
+}
+
+.pic-partner-OKEx-logo{
+  @include nkn-icon(130px, 46px);
+  background-image: url(~@/assets/img/about/partner/OKEx-logo.png);
+}
+
+.pic-partner-ONF2{
+  @include nkn-icon(106px, 61px);
+  background-image: url(~@/assets/img/about/partner/ONF2.png);
+}
+
+.pic-partner-portal2{
+  @include nkn-icon(123px, 63px);
+  background-image: url(~@/assets/img/about/partner/portal2.png);
+}
+
+.pic-partner-String{
+  @include nkn-icon(119px, 47px);
+  background-image: url(~@/assets/img/about/partner/String.png);
+}
+
+.pic-partner-telecom2{
+  @include nkn-icon(99px, 66px);
+  background-image: url(~@/assets/img/about/partner/telecom2.png);
+}
+
+.pic-partner-Unetwork2{
+  @include nkn-icon(132px, 28px);
+  background-image: url(~@/assets/img/about/partner/Unetwork2.png);
+}
+
+.pic-exchanges-bcex{
+  @include nkn-icon(74px, 106px,64px 86px);
+  background-image: url(~@/assets/img/about/exchanges/bcex.png);
+}
+
+.pic-exchanges-bitrue{
+  @include nkn-icon(112px, 93px, 112px 93px);
+  background-image: url(~@/assets/img/about/exchanges/bitrue.png);
+}
+
+.pic-exchanges-gate{
+  @include nkn-icon(196px, 71px, 186px 61px);
+  background-image: url(~@/assets/img/about/exchanges/gate.png);
+}
+
+.pic-exchanges-LATOKEN{
+  @include nkn-icon(230px, 74px, 180px 44px);
+  background-image: url(~@/assets/img/about/exchanges/LATOKEN.png);
+}
+
+.pic-exchanges-switcheo{
+  @include nkn-icon(184px, 41px, 180px 40px);
+  background-image: url(~@/assets/img/about/exchanges/switcheo.png);
+}
+
+

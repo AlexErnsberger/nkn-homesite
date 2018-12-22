@@ -36,10 +36,12 @@ a{
   font-size: 48px;
   color: #363F57;
   text-align: center;
+  line-height: 1;
 }
 
 .l2-title-light{
   font-size: 48px;
   color: #fff;
   text-align: center;
+  line-height: 1;
 }

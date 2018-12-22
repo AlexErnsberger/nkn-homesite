@@ -1,7 +1,7 @@
-@mixin nkn-icon($width, $height){
+@mixin nkn-icon($width, $height, $size:cover){
   display: inline-block;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: $size;
   background-position: center;
   width: $width;height: $height;
   vertical-align: middle;
