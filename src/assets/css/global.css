@@ -45,3 +45,15 @@ a{
   text-align: center;
   line-height: 1;
 }
+
+.l2-sub-title{
+  font-size: 30px;
+  color: #000;
+  line-height: 1;
+}
+
+.video-js .vjs-big-play-button{
+  width: 1.5em; height: 1.5em;
+  border-radius: 50%;
+  top: calc(50% - .75em);left: calc(50% - 1.5em);
+}

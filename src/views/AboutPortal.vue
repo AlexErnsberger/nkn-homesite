@@ -1,10 +1,14 @@
 <template>
-  <div class="about">
+  <div class="nkn-about">
     <about-header></about-header>
-    <about-team></about-team>
-    <about-adviser></about-adviser>
+    <div class="container">
+      <about-team></about-team>
+      <about-adviser></about-adviser>
+    </div>
     <about-roadmap></about-roadmap>
-    <about-partner></about-partner>
+    <div class="container">
+      <about-partner></about-partner>
+    </div>
   </div>
 </template>
 

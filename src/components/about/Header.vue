@@ -1,5 +1,5 @@
 <template>
-<div class="about-header">
+<div class="nkn-about-header">
   <div class="map-tag map-tag-sf">
     <i class="pic-map-sf"></i>
     <span class="map-tag-desc">San Francisco Office</span>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.about-header {
+.nkn-about-header {
   width: 1280px;
   height: 440px;
   margin: 56px auto 0 auto;

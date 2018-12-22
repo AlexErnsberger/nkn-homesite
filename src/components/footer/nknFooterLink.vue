@@ -122,11 +122,11 @@ export default {
 <style lang="scss" scoped>
 .footer-link {
   padding: 80px 0;
-
   &-module {
     float: left;
-    min-width: 300px;
+    min-width: 260px;
     color: #fff;
+    margin-left: 40px;
 
     &-title {
       font-size: 24px;

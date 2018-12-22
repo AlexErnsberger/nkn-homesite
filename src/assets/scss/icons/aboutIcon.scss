@@ -1,12 +1,5 @@
-// 相对于组件所在路径
-$footer-body-bg:'~@/assets/img/footer/footerBG.png';
 $l2-about-header-bg:'~@/assets/img/about/header/worldmap.png';
 $l2-about-roadmap-bg: '~@/assets/img/about/roadmap/Line.png';
-
-.icon-nkn-logo{
-  @include nkn-icon($width: 105px,$height: 40px);
-  background-image: url(~@/assets/img/header/logo.png);
-}
 
 .pic-map-sf{
   @include nkn-icon($width: 80px,$height: 144px);
