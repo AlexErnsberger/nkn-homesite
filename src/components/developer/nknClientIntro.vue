@@ -4,11 +4,11 @@
   <div class="nkn-video clearfix">
     <div class="nkn-video-intro">
       <div class="nkn-video-title">NKN CTO Yilun’s introduction on NKN technology</div>
-      <video-player class="nkn-video-body" :options="playerOptions" :playsinline="true"></video-player>
+      <video-player class="nkn-video-body nkn-client-intro-flag" :options="playerOptions" :playsinline="true"></video-player>
     </div>
     <div class="nkn-video-disc">
       <div class="nkn-video-title">NKN CTO Yilun’s discussion on NKN client SDK</div>
-      <video-player class="nkn-video-body" :options="playerOptions" :playsinline="true"></video-player>
+      <video-player class="nkn-video-body nkn-client-intro-flag" :options="playerOptions" :playsinline="true"></video-player>
     </div>
   </div>
 </div>
@@ -27,12 +27,13 @@ export default {
   data: function () {
     return {
       playerOptions: {
-        height: '331',
+        height:'331',
+        width:'593',
         autoplay: false,
         muted: true,
         language: 'en',
         playbackRates: [0.7, 1.0, 1.5, 2.0],
-        fluid: true,
+        preload: 'none',
         sources: [{
           type: 'video/mp4',
           // mp4
@@ -53,12 +54,6 @@ export default {
 
   .nkn-video {
     padding: 40px 0;
-
-    &-intro,
-    &-disc {
-
-      width: 593px;
-    }
 
     &-intro {
       float: left;

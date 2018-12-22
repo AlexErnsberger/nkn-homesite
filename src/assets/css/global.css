@@ -52,8 +52,16 @@ a{
   line-height: 1;
 }
 
-.video-js .vjs-big-play-button{
-  width: 1.5em; height: 1.5em;
+.nkn-client-intro-flag .video-js .vjs-big-play-button{
+  width: 138px; height: 138px;
+  line-height: 108px;
+  box-sizing: border-box;
+  border-width:15px;
   border-radius: 50%;
-  top: calc(50% - .75em);left: calc(50% - 1.5em);
+  top: calc(50% - 69px);left: calc(50% - 69px);
+  opacity: .6;
+}
+.nkn-client-intro-flag .video-js .vjs-big-play-button .vjs-icon-placeholder::before{
+  position: inherit;
+  font-size: 80px;
 }
