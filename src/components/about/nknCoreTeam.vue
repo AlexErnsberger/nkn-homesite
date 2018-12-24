@@ -1,6 +1,6 @@
 <template>
 <div class="nkn-team">
-  <div class="l2-title">Core Team</div>
+  <div class="common-title">Core Team</div>
   <div class="nkn-team-body clearfix">
     <team-module>
       <i slot="title-img" class="pic-team-yanbo" ></i>

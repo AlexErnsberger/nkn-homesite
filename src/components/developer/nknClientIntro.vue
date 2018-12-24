@@ -1,14 +1,14 @@
 <template>
 <div class="nkn-client-intro">
-  <div class="l2-sub-title">nkn-client Intro</div>
+  <div class="common-sub-title">nkn-client Intro</div>
   <div class="nkn-video clearfix">
     <div class="nkn-video-intro">
       <div class="nkn-video-title">NKN CTO Yilun’s introduction on NKN technology</div>
-      <video-player class="nkn-video-body nkn-client-intro-flag" :options="playerOptions" :playsinline="true"></video-player>
+      <video-player class="nkn-video-body client-intro-flag" :options="playerOptions" :playsinline="true"></video-player>
     </div>
     <div class="nkn-video-disc">
       <div class="nkn-video-title">NKN CTO Yilun’s discussion on NKN client SDK</div>
-      <video-player class="nkn-video-body nkn-client-intro-flag" :options="playerOptions" :playsinline="true"></video-player>
+      <video-player class="nkn-video-body client-intro-flag" :options="playerOptions" :playsinline="true"></video-player>
     </div>
   </div>
 </div>
@@ -27,8 +27,8 @@ export default {
   data: function () {
     return {
       playerOptions: {
-        height:'331',
-        width:'593',
+        height: '331',
+        width: '593',
         autoplay: false,
         muted: true,
         language: 'en',

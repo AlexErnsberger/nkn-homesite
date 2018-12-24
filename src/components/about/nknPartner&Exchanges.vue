@@ -1,6 +1,6 @@
 <template>
 <div class="nkn-partner">
-  <div class="l2-title">Strategic Partners and Alliances</div>
+  <div class="common-title">Strategic Partners and Alliances</div>
   <div class="partner-block clearfix">
     <div class="partner-icon">
       <i class="pic-partner-telecom2"></i>
@@ -63,7 +63,7 @@
       <i class="pic-partner-GeekHouse"></i>
     </div>
   </div>
-  <div class="l2-title">Exchanges</div>
+  <div class="common-title">Exchanges</div>
   <div class="exchanges-block clearfix">
     <div class="exchanges-icon">
       <i class="pic-exchanges-gate"></i>

@@ -22,7 +22,7 @@ export default {
   width: 1280px;
   height: 440px;
   margin: 56px auto 0 auto;
-  @include nkn-bg-img($url: $l2-about-header-bg);
+  @include nkn-bg-img($url: $about-header-bg);
   position: relative;
 
   .map-tag {

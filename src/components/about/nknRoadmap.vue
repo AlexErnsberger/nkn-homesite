@@ -1,7 +1,7 @@
 <template>
   <div class="nkn-roadmap">
     <div class="container">
-      <div class="l2-title-light">Roadmap</div>
+      <div class="common-title-light">Roadmap</div>
       <div class="roadmap-body">
         <div class="roadmap-flag roadmap-flag-testnet">TESTNET</div>
         <div class="roadmap-flag roadmap-flag-mainnet">MAINNET</div>
@@ -64,7 +64,7 @@ export default {
     padding-top: 100px;
     height: 900px;
     position: relative;
-    @include nkn-bg-img($url:$l2-about-roadmap-bg, $position:calc(50% - 1px) 100px, $size:2px 893px);
+    @include nkn-bg-img($url:$about-roadmap-bg, $position:calc(50% - 1px) 100px, $size:2px 893px);
     .roadmap-flag{
       font-size: 48px;line-height: 1;
       color: #43507a;

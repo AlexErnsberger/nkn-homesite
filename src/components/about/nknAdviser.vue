@@ -1,6 +1,6 @@
 <template>
 <div class="nkn-adviser">
-  <div class="l2-title">Adviser</div>
+  <div class="common-title">Adviser</div>
   <div class="nkn-adviser-body clearfix">
     <adviser-module>
       <i slot="portrait" class="pic-adviser-diffie"></i>

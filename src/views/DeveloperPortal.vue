@@ -1,7 +1,7 @@
 <template>
 <div class="nkn-developer">
   <div class="container">
-    <div class="l2-title">Developer Portal</div>
+    <div class="common-title">Developer Portal</div>
     <developer-client-intro></developer-client-intro>
     <developer-dapp></developer-dapp>
     <developer-resources></developer-resources>

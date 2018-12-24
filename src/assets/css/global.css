@@ -32,27 +32,33 @@ a{
 .clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0}
 
 /*二级页面标题*/
-.l2-title{
+.common-title{
   font-size: 48px;
   color: #363F57;
   text-align: center;
   line-height: 1;
 }
 
-.l2-title-light{
+.common-title-light{
   font-size: 48px;
   color: #fff;
   text-align: center;
   line-height: 1;
 }
 
-.l2-sub-title{
+.common-sub-title{
   font-size: 30px;
   color: #000;
   line-height: 1;
 }
 
-.nkn-client-intro-flag .video-js .vjs-big-play-button{
+.common-thrid-title{
+  font-size: 24px;
+  color: #000;
+  line-height: 1;
+}
+
+.client-intro-flag .video-js .vjs-big-play-button{
   width: 138px; height: 138px;
   line-height: 108px;
   box-sizing: border-box;
@@ -61,7 +67,22 @@ a{
   top: calc(50% - 69px);left: calc(50% - 69px);
   opacity: .6;
 }
-.nkn-client-intro-flag .video-js .vjs-big-play-button .vjs-icon-placeholder::before{
+.client-intro-flag .video-js .vjs-big-play-button .vjs-icon-placeholder::before{
   position: inherit;
   font-size: 80px;
+}
+
+.mining-intro-flag .video-js .vjs-big-play-button{
+  width: 219px; height: 219px;
+  line-height: 189px;
+  box-sizing: border-box;
+  border-width:15px;
+  border-radius: 50%;
+  top: calc(50% - 109.5px);left: calc(50% - 109.5px);
+  box-shadow: 0 2px 10px 0 rgba(79, 92, 199, 0.19);
+}
+
+.mining-intro-flag .video-js .vjs-big-play-button .vjs-icon-placeholder::before{
+  position: inherit;
+  font-size: 150px;
 }

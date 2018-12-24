@@ -1,6 +1,6 @@
 <template>
 <div class="nkn-eg-dapp">
-  <div class="l2-sub-title">Example dApps</div>
+  <div class="common-sub-title">Example dApps</div>
   <div class="dapp-content clearfix">
     <div class="dapp-content-detail">
       <dapp-module>

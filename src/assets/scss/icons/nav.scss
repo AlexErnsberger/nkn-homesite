@@ -1,4 +1,4 @@
-$footer-body-bg:'~@/assets/img/footer/footerBG.png';
+$footer-body-bg: url('~@/assets/img/footer/footerBG.png');
 
 .icon-nkn-logo{
   @include nkn-icon($width: 105px,$height: 40px);

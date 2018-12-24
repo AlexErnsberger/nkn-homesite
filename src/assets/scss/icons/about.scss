@@ -1,5 +1,5 @@
-$l2-about-header-bg:'~@/assets/img/about/header/worldmap.png';
-$l2-about-roadmap-bg: '~@/assets/img/about/roadmap/Line.png';
+$about-header-bg: url('~@/assets/img/about/header/worldmap.png');
+$about-roadmap-bg: url('~@/assets/img/about/roadmap/Line.png');
 
 .pic-map-sf{
   @include nkn-icon($width: 80px,$height: 144px);

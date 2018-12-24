@@ -1,6 +1,6 @@
 <template>
 <div class="nkn-resources">
-  <div class="l2-sub-title">Developer Resources</div>
+  <div class="common-sub-title">Developer Resources</div>
   <div class="resources-content clearfix">
     <div class="resources-content-module">
       <ul>
