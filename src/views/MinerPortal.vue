@@ -5,6 +5,7 @@
       <miner-intro></miner-intro>
       <miner-get-started></miner-get-started>
       <miner-node-software></miner-node-software>
+      <miner-resources></miner-resources>
     </div>
   </div>
 </template>
@@ -13,9 +14,10 @@
 import MinerIntro from '@/components/miner/nknMiningIntro'
 import MinerGetStarted from '@/components/miner/nknGetStarted'
 import MinerNodeSoftware from '@/components/miner/nknNodeSoftware'
+import MinerResources from '@/components/miner/nknMiningResources'
 export default {
   components: {
-    MinerIntro, MinerGetStarted, MinerNodeSoftware
+    MinerIntro, MinerGetStarted, MinerNodeSoftware, MinerResources
   }
 }
 </script>

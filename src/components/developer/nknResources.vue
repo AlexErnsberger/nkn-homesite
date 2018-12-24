@@ -4,57 +4,57 @@
   <div class="resources-content clearfix">
     <div class="resources-content-module">
       <ul>
-        <li class="resources-content-title">Github Code</li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-title">Github Code</li>
+        <li class="common-fourth-link">
           <a href="">nkn</a>
         </li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-link">
           <a href="">nkn-client-js</a>
         </li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-link">
           <a href="">nkn-wallet-js</a>
         </li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-link">
           <a href="">nkn-mining</a>
         </li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-link">
           <a href="">nnet</a>
         </li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-link">
           <a href="">nkn-db-tools</a>
         </li>
       </ul>
     </div>
     <div class="resources-content-module center-module">
       <ul>
-        <li class="resources-content-title">Docs & Help</li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-title">Docs & Help</li>
+        <li class="common-fourth-link">
           <a href="">NKN Wiki</a>
         </li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-link">
           <a href="">NKN Discord</a>
         </li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-link">
           <a href="">Logo Download</a>
         </li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-link">
           <a href="">NKN Youtube Video</a>
         </li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-link">
           <a href="">Yilun Web3.0 Video</a>
         </li>
       </ul>
     </div>
     <div class="resources-content-module last-module">
       <ul>
-        <li class="resources-content-title">Tools</li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-title">Tools</li>
+        <li class="common-fourth-link">
           <a href="">testnet.nkn.org</a>
         </li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-link">
           <a href="">preview.nkn.org</a>
         </li>
-        <li class="resources-content-detail">
+        <li class="common-fourth-link">
           <a href="">nknx.org</a>
         </li>
       </ul>
@@ -78,18 +78,6 @@ export default {
       float: left;
       width: 400px;
       box-sizing: border-box;
-    }
-
-    &-title {
-      font-size: 18px;
-      color: currentColor;
-      line-height: 58px;
-    }
-
-    &-detail {
-      font-size: 14px;
-      color: #1791f2;
-      line-height: 34px;
     }
 
     .center-module {

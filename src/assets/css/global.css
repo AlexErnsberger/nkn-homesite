@@ -58,6 +58,18 @@ a{
   line-height: 1;
 }
 
+.common-fourth-title{
+  font-size: 18px;
+  color: #000;
+  line-height: 60px;
+}
+
+.common-fourth-link{
+  font-size: 18px;
+  color: #1791f2;
+  line-height: 40px;
+}
+
 .client-intro-flag .video-js .vjs-big-play-button{
   width: 138px; height: 138px;
   line-height: 108px;

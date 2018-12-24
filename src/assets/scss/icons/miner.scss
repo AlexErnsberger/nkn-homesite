@@ -1,49 +1,49 @@
 .pic-miner-googlecloud{
   @include nkn-icon($width: 85px,$height: 84px, $size: 80px 70px);
-  background-image: url(~@/assets/img/miner/googlecloud.png);
+  background-image: url(~@/assets/img/miner/nodeSoftware/googlecloud.png);
 }
 
 .pic-miner-DigitalOcean{
   @include nkn-icon($width: 100px,$height: 76px, $size: 90px 67.5px);
-  background-image: url(~@/assets/img/miner/DigitalOcean.png);
+  background-image: url(~@/assets/img/miner/nodeSoftware/DigitalOcean.png);
 }
 
 .pic-miner-Raspipng{
   @include nkn-icon($width: 61px,$height: 76px, $size: 50px 62.5px);
-  background-image: url(~@/assets/img/miner/Raspipng.png);
+  background-image: url(~@/assets/img/miner/nodeSoftware/Raspipng.png);
 }
 
 .pic-miner-AWS{
   @include nkn-icon($width: 96px,$height: 63px, $size: 80px 56px);
-  background-image: url(~@/assets/img/miner/AWS.png);
+  background-image: url(~@/assets/img/miner/nodeSoftware/AWS.png);
 }
 
 .pic-miner-router{
   @include nkn-icon($width: 60px,$height: 45px);
-  background-image: url(~@/assets/img/miner/router.png);
+  background-image: url(~@/assets/img/miner/nodeSoftware/router.png);
 }
 
 .pic-miner-GUI{
   @include nkn-icon($width: 410px,$height: 341px);
-  background-image: url(~@/assets/img/miner/GUI.png);
+  background-image: url(~@/assets/img/miner/nodeSoftware/GUI.png);
 }
 
 .icon-miner-finder{
   @include nkn-icon($width: 50px,$height: 50px);
-  background-image: url(~@/assets/img/miner/finder.png);
+  background-image: url(~@/assets/img/miner/nodeSoftware/finder.png);
 }
 
 .icon-miner-github{
   @include nkn-icon($width: 50px,$height: 50px);
-  background-image: url(~@/assets/img/miner/github.png);
+  background-image: url(~@/assets/img/miner/nodeSoftware/github.png);
 }
 
 .icon-miner-windows{
   @include nkn-icon($width: 50px,$height: 50px);
-  background-image: url(~@/assets/img/miner/windows.png);
+  background-image: url(~@/assets/img/miner/nodeSoftware/windows.png);
 }
 
 .icon-miner-linux{
-  @include nkn-icon($width: 47px,$height: 56px);
-  background-image: url(~@/assets/img/miner/linux.png);
+  @include nkn-icon($width: 50px,$height: 56px, $size: 47px 56px);
+  background-image: url(~@/assets/img/miner/nodeSoftware/linux.png);
 }

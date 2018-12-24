@@ -4,34 +4,34 @@
     <div class="mining-guide clearfix">
       <div class="mining-guide-en">
         <ul>
-          <li class="mining-guide-title">Mining Guides in English</li>
-          <li class="mining-guide-link">
+          <li class="common-fourth-title">Mining Guides in English</li>
+          <li class="common-fourth-link">
             <a href="">http://howtominenkn.com</a>
           </li>
-          <li class="mining-guide-link">
+          <li class="common-fourth-link">
             <a href="">http://howtominenkn.com</a>
           </li>
-          <li class="mining-guide-link">
+          <li class="common-fourth-link">
             <a href="">http://howtominenkn.com</a>
           </li>
-          <li class="mining-guide-link">
+          <li class="common-fourth-link">
             <a href="">http://howtominenkn.com</a>
           </li>
         </ul>
       </div>
       <div class="mining-guide-other">
         <ul>
-          <li class="mining-guide-title">Mining Guides in other languages</li>
-          <li class="mining-guide-link">
+          <li class="common-fourth-title">Mining Guides in other languages</li>
+          <li class="common-fourth-link">
             <a href="">Chinese Mining Guides</a>
           </li>
-          <li class="mining-guide-link">
+          <li class="common-fourth-link">
             <a href="">Korean Mining Guides</a>
           </li>
-          <li class="mining-guide-link">
+          <li class="common-fourth-link">
             <a href="">German Mining Guides</a>
           </li>
-          <li class="mining-guide-link">
+          <li class="common-fourth-link">
             <a href="">French Mining Guides</a>
           </li>
         </ul>
@@ -59,16 +59,6 @@ export default {
 
     &-other{
       margin-left: 268px;
-    }
-
-    &-title{
-      color: currentColor;
-      line-height: 58px;
-    }
-
-    &-link{
-      color: #1791f2;
-      line-height: 38px;
     }
   }
 }
